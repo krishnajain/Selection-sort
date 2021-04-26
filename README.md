@@ -13,3 +13,34 @@ Step 2) Partition the list into sorted and unsorted sections. The sorted section
 Step 3) Pick the minimum value from the unpartitioned section and placed it into the sorted section.
 
 Step 4) Repeat the process (n – 1) times until all of the elements in the list have been sorted.
+
+
+
+
+
+Advantages of Selection Sort
+
+
+
+The following are the advantages of the selection sort
+
+It performs very well on small lists
+It is an in-place algorithm. It does not require a lot of space for sorting. Only one extra space is required for holding the temporal variable.
+It performs well on items that have already been sorted.
+
+
+
+
+
+
+
+
+Disadvantages of Selection Sort
+
+
+
+The following are the disadvantages of the selection sort.
+
+It performs poorly when working on huge lists.
+The number of iterations made during the sorting is n-squared, where n is the total number of elements in the list.
+Other algorithms, such as quicksort, have better performance compared to the selection sort.
